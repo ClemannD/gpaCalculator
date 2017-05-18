@@ -1,4 +1,5 @@
 <?php include("includes/gradeOptions.php"); ?>
+<?php include("includes/creditOptions.php"); ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -22,7 +23,7 @@
                         <option value="6.0">6</option>
                     </select>
                 </div>
-                <h4 class="subtitle" align="center">Enter your grades</h4>
+                <h4 class="subtitle" align="center">Enter your grades and credits</h4>
                 <div class="gradeOps" id="grades">
                     <select class="op" id="grade1" style="display: inline">
                         <?php echo $gradeOps; ?>
@@ -41,6 +42,26 @@
                     </select>
                     <select class="op" id="grade6" style="display: none">
                         <?php echo $gradeOps; ?>
+                    </select>
+                </div>
+                <div class="creditOps" id="credits">
+                    <select class="op" id="credit1" style="display: inline">
+                        <?php echo $creditOps; ?>
+                    </select>
+                    <select class="op" id="credit2" style="display: inline">
+                        <?php echo $creditOps; ?>
+                    </select>
+                    <select class="op" id="credit3" style="display: inline">
+                        <?php echo $creditOps; ?>
+                    </select>
+                    <select class="op" id="credit4" style="display: inline">
+                        <?php echo $creditOps; ?>
+                    </select>
+                    <select class="op" id="credit5" style="display: none">
+                        <?php echo $creditOps; ?>
+                    </select>
+                    <select class="op" id="credit6" style="display: none">
+                        <?php echo $creditOps; ?>
                     </select>
                 </div>
                 <div class="calcButton">
